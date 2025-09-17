@@ -6,3 +6,9 @@ Note that this page will be deactivated at the end of the course
 
 - <a href="2025_09_16_KI_seminar.pdf">Slides </a> for the Sep 16 seminar
 - <a href="2025_MLcourse_KI.pdf">Course Slides </a>
+
+Lab material
+- <a href="ML_data.xlsx">Dataset </a>
+- <a href="codebook.xlsx">Codebook </a>
+- <a href="Lab 1.docx">Lab 1 text </a>
+- <a href="lab1.R">Lab 1 R code </a>
