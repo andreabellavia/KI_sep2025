@@ -12,6 +12,8 @@ Lab material
 - <a href="codebook.xlsx">Codebook </a>
 - <a href="Lab 1.docx">Lab 1 text </a>
 - <a href="lab1.R">Lab 1 R code </a>
+- <a href="Lab 2.docx">Lab 2 text </a>
+- <a href="lab2.R">Lab 2 R code </a>
 
 Exposome data challenge info
 - [Official data repository](https://github.com/isglobal-exposomeHub/ExposomeDataChallenge2021)
