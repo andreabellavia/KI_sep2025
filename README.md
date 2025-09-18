@@ -14,5 +14,5 @@ Lab material
 - <a href="lab1.R">Lab 1 R code </a>
 
 Exposome data challenge info
-- [Official data repository](https://github.com/isglobal-exposomeHub/ExposomeDataChallenge2021])
+- [Official data repository](https://github.com/isglobal-exposomeHub/ExposomeDataChallenge2021)
 - [Publication](https://pubmed.ncbi.nlm.nih.gov/36058017/)
