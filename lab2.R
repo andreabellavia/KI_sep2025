@@ -133,28 +133,6 @@ vip::vip(gbm1)
 
 # 2. PDP and ice. Example with p3
 
-pdp::partial(gbm1, pred.var = "p3_scaled", plot = TRUE)
-
-pdp_pred <- function(object, newdata)  {
-  results <- mean(as.vector(h2o.predict(object, as.h2o(newdata))))
-  return(results)
-}
-
-pd_values <- partial(
-  ensemble_tree,
-  train = as.data.frame(train_h2o),
-  pred.var = "Gr_Liv_Area",
-  pred.fun = pdp_pred,
-  grid.resolution = 20
-)
-head(pd_values)
-
-unloadNamespace("lares")
-unloadNamespace("caret")
-unloadNamespace("recipes")
-unloadNamespace("tidyr")
-unloadNamespace("dplyr")
-
 pdp_p3 <- pdp::partial(
   object = gbm1,
   pred.var = "p3_scaled",
